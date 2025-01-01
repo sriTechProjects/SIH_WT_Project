@@ -1,0 +1,77 @@
+Frontend Routes and Portal Description
+•	Login Page
+http://localhost:5173/
+•	Forgot Password
+http://localhost:5173/forgotPassword
+RAC HEAD
+•	Dashboard
+http://localhost:5173/rachead
+	
+•	Analytics
+http://localhost:5173/rachead/analytics
+•	Panels
+http://localhost:5173/rachead/pannels
+•	Create Panel
+http://localhost:5173/rachead/createpanel
+•	Control Panel(Block ,del etc a expert)
+http://localhost:5173/rachead/expertsData
+•	Generated Experts
+http://localhost:5173/rachead/generatedexperts
+•	Candidate Data
+http://localhost:5173/rachead/candidateData
+
+Candidate
+•	Registration
+http://localhost:5173/register/candidateregister
+•	Performance Report
+http://localhost:5173/performanceReport
+
+
+
+Expert
+•	Registration
+http://localhost:5173/register/expertregister
+
+Description:
+Description: AI-Powered Panel Generation and Interview Management System
+This system leverages AI to automate the creation of interview panels and streamline the recruitment process for RAC (Recruitment and Assessment Centre). It integrates job descriptions, expert profiles, and candidate information to generate data-driven relevancy scores that ensure precise panel and interviewee matching.
+
+The platform enhances recruitment efficiency by incorporating quizzes for both experts and candidates, enabling detailed evaluation and compatibility analysis.
+
+Process Workflow:
+Job Description Submission:
+
+The RAC Head submits a job description for an open position.
+The system identifies experts in the relevant domain and calculates the Expert-Job Relevancy Score based on their profiles.
+Expert-Candidate Compatibility:
+
+Candidates register and upload their profiles, including personal details, educational background, and achievements.
+Experts and candidates participate in quizzes to assess their domain knowledge.
+Using quiz results and profile data, the system calculates the Expert-Candidate Relevancy Score to ensure the best matching.
+Panel Generation and Management:
+
+Based on relevancy scores, the system automatically creates an interview panel.
+Experts are assigned to evaluate candidates during interviews.
+Report Generation:
+
+Experts generate detailed performance reports for each candidate post-interview, which are shared with the RAC Head and candidates.
+Role-Specific Features:
+1. RAC Head Features:
+Dashboard: View key metrics, ongoing interviews, and overall system performance.
+Analytics: Access detailed reports and visual trends for data-driven insights.
+Interview Panels Management: Monitor existing panels and create new ones based on system recommendations.
+Reports: Receive comprehensive evaluation reports for every candidate.
+2. Expert (Interviewer) Features:
+Dashboard: Overview of assigned panels and scheduled interviews.
+Panel Management: View candidate details and initiate evaluations.
+Report Submission: Generate and submit detailed feedback reports to the RAC Head and candidates.
+3. Candidate Features:
+Profile Registration: Upload personal and professional information to create a detailed profile.
+Quiz Participation: Attempt domain-specific quizzes to showcase expertise.
+Report Access: Receive expert-generated feedback after interviews.
+Dashboard: Track application status, quiz results, and feedback reports.
+Key Benefits:
+Automated Matching: AI-based relevancy scoring optimizes expert-candidate pairing.
+Data-Driven Decisions: Quizzes and profile analysis ensure fair and informed evaluations.
+Streamlined Workflow: Centralized system for managing interviews and generating reports.
+This system transforms traditional recruitment processes by integrating AI, ensuring accuracy, fairness, and efficiency in candidate evaluations and expert panel formation.
